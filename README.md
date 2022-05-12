@@ -189,7 +189,7 @@ file : 파일선택하는 타입 name ="" 쓸것
 <selct name="" (multple 다중선택) />
 <option value="보낼 옵션 값">select 선택문안에 값설정</option>
 <form>
-  <input type="radio" name="" value="전달할 값" />
-  <input type="checkbox" name="" value="전달할 값" />
+  <input type="radio" name="radio그룹이름" value="전달할 값" />
+  <input type="checkbox" name="checkbox그룹이름" value="전달할 값" />
 </form>
 ```
