@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/signup.css" />
+    <title>폼</title>
+  </head>
+  <body>
+    <h1>회원가입</h1>
+    <form action="" method="POST">
+      <label for="user-name">이름:</label>
+      <input type="text" placeholder="이름을 입력하세요." id="user-name" />
+      <label for="user-id">아이디:</label>
+      <input type="text" placeholder="아이디를 입력하세요." id="user-id" />
+      <label for="user-pw">비밀번호:</label>
+      <input
+        type="password"
+        placeholder="비밀번호를 입력하세요.(8이상 16자이하)"
+        id="user-pw"
+        minlength="8"
+        maxlength="16"
+      />
+      <label for="user-mail">이메일:</label>
+      <input type="mail" placeholder="이메일을 입력하세요." id="user-mail" />
+      <label for="user-tel">전화번호:</label>
+      <input
+        type="tel"
+        placeholder="전화번호를 입력하세요.(000-0000-0000형식)"
+        id="user-tel"
+        pattern="[0-9]{3}-[0-9]{3,4}-[0-9]{4}"
+      />
+      <label for="user-age">만나이:</label>
+      <input
+        type="number"
+        placeholder="만나이를 입력하세요.(12세 이상 122세 이하)"
+        id="user-age"
+        min="12"
+        max="122"
+      />
+      <label for="user-profile">프로필 사진:</label>
+      <input
+        type="file"
+        placeholder="프로필 사진을 선택해주세요.(jpg,png파일)"
+        id="user-profile"
+        accept=".jpg,.png"
+      />
+    </form>
+  </body>
+</html>
