@@ -15,7 +15,7 @@ Aria 태그 정의
 <meta name="viewport(메타데이터 종류)" content="width=device-width, initial-scale=1.0(메타데이터 값)"> 문서 자체의 특성
 <meta name="author(메타데이터 작성자)" content="이경섭">
 <meta charset = "utf-8"> 한글안깨지게할때 넣는것
-<meta name="keyword" content="김버그, 구름강의, 구름Edu">
+<meta name="keywords(브라우저 서치할때 서치하게 나오게하는것)" content="김버그, 구름강의, 구름Edu">
 <meta name="description(페이지설명)" content="~~~">
 <title> 브라우저 표시되는 제목(html 문서의 대 제목)
 <html> 기본html 태그
@@ -61,9 +61,7 @@ Aria 태그 정의
 <audio
   src="오디오 태그"
   controls="재생 소리조절기"
-  autoplay="사이트키면"
-  자동재생(크롬은
-  막음)
+  autoplay="사이트키면자동재생(크롬은막음)"
   loop="반복"
 ></audio>
 <audio>
@@ -72,9 +70,12 @@ Aria 태그 정의
 <video>오디오태그랑 사용방법 같음</video>
 <video><source src="mp4 mov" type="video/mp4로 통일" /></video>
 <iframe>html문서안에 또다른 html을 사용할때</iframe>
-<addr title="약자의 풀네임">addreviaton의 약자 약자의 뜻</addr>
+<abbr title="약자의 풀네임">abbreviaton의 약자 약자의 뜻</abbr>
 <address>연락처 태그(물리적주소 , url , email , 전화번호 , sns)</address>
-<code>대부분 pre 태그안에 넣어서 사용</code>
+<code
+  >대부분 pre 태그안에 넣어서 사용 html에서 육안으로 파악가능하게
+  코드입력할때</code
+>
 <pre>html 문서상 코드를 작성하고 싶을때 사용</pre>
 <table>
   table 태그 border 로 선을 나타낼수 있음
