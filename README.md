@@ -197,3 +197,4 @@ file : 파일선택하는 타입 name ="" 쓸것
 
 <section> Sectioning elements의 준말 단원이라는 뜻으로 사용했을경우 <h1> 태그를 필수사용 
 <nav> <h1> 태그를 필수사용
+<main> html에서 단 한개만 사용할수있는 태그
