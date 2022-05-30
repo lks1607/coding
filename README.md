@@ -196,5 +196,7 @@ file : 파일선택하는 타입 name ="" 쓸것
 ```
 
 <section> Sectioning elements의 준말 단원이라는 뜻으로 사용했을경우 <h1> 태그를 필수사용 
-<nav> <h1> 태그를 필수사용
+<nav> <h1> 태그를 필수사용 section태그중 하나
+<article> <h1> 태그를 필수사용 section태그중 하나 완결성있는 독립적인컨테츠인경우 section 보다 article 사용추천
+<aside> 본문내용과 살짝빗나간애들사용할때 사용 section태그중 하나
 <main> html에서 단 한개만 사용할수있는 태그
