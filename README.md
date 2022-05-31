@@ -194,3 +194,20 @@ file : 파일선택하는 타입 name ="" 쓸것
   <input type="checkbox" name="checkbox그룹이름" value="전달할 값" />
 </form>
 ```
+
+# css
+
+Cascading Style Sheet의 준말 html페이지를 꾸미기 위한언어
+
+selector(선택자) {
+property(선언): value(값);
+}
+
+## Boxmodel
+
+| Content       | 가로는 width 세로는 height                                           |
+| ------------- | -------------------------------------------------------------------- |
+| Padding       | 안쪽 여백, 즉 content와 border 사이의 공간을 나타내는 Padding        |
+| Border        | 테두리를 나타냄 (굵기 스타일 색상이 있어야함) 필요없을경우 none 사용 |
+| border-radius | 둥근 테두리가 필요할때                                               |
+| margin        | 바깥여백, 즉 요소와 요소사이의 간격을 나타내는 margin                |
