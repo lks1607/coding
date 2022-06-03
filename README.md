@@ -211,3 +211,15 @@ property(선언): value(값);
 | Border        | 테두리를 나타냄 (굵기 스타일 색상이 있어야함) 필요없을경우 none 사용 |
 | border-radius | 둥근 테두리가 필요할때                                               |
 | margin        | 바깥여백, 즉 요소와 요소사이의 간격을 나타내는 margin                |
+
+Block(길막) : 다른 블록이 침범하지못하게 width값 남은곳은 margin이 자동으로 채움
+Inline(흐름) : width,height, padding-top, padding-bottom, border-top, border-bottom, margin-top, margin-bottom 사용불가
+Inline-block : Inline 장점과 Block 장점을 합친것
+
+## Float
+
+| float          | 사용시 block으로 변경 이때 block은 길막 x                              |
+| -------------- | ---------------------------------------------------------------------- |
+| opacity        | 투명도 1, 0.5, 0                                                       |
+| Clearfix       | float로 고장난거 고칠떄 사용 clear는 left, right, both를 사용          |
+| Pseudo Element | css가상요소 html에는 존재하지않음 .class::before .class::after 로 사용 |

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Popins", sans-serif;
+}
+
+.parent{
+    background-color: #e5e9f2;
+}
+
+.child,
+.other{
+    height: 50px;
+    color: #212529;
+    line-height: 50px;
+    text-indent: 20px;
+}
+
+.child{
+    background-color: #ffc82c;
+    width: 200px;
+}
+
+.other{
+    background-color: #ff4949;
+    width: 100px;
+}

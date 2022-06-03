@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: antiquewhite;
+}
+
+.tab-menu{
+    height: 20px;
+    background-color: white;
+}
+li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    
+}
+.tab-menu::after{
+    content: "";
+    display: block;
+    clear: left;
+    
+}
+
