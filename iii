@@ -1,0 +1,38 @@
+
+.card{
+    max-width: 531px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img{
+      
+  }
+
+.card-user{
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 44px;
+      height: 44px;
+}
+
+.card-user,.card-content{
+    float: left;
+}
+
+.card-content h1{
+    margin-bottom: 4px;
+}
+
+.card-content strong{
+    display: block;
+    margin-bottom: 12px;
+}
+
+

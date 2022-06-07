@@ -32,38 +32,35 @@ p {
   /* ▼ WHERE YOUR CODE BEGINS */
 
 .card{
-    max-width: 531px;
-    background-color: #fff;
-    padding: 20px;
+  padding: 20px;
+  width: 531px;
+  background-color: #fff;
 }
 
 .clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
-img{
-      width: 44px;
-      height: 44px;
+  img{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-right: 20px;
   }
 
-.card-user{
-    margin-right: 20px;
-    border-radius: 50%;
-}
-
-.card-user,.card-content{
+  .card-content,
+  .card-user{
     float: left;
-}
+  }
+  
 
-.card-content h1{
+  .card-content h1{
     margin-bottom: 4px;
-}
+  }
 
-.card-content strong{
+  .card-content strong{
     display: block;
     margin-bottom: 12px;
-}
-
-
+  }

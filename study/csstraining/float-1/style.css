@@ -18,32 +18,27 @@ a {
   /* ▼ WHERE YOUR CODE BEGINS */
 
 ul{
-    margin: auto;
-    list-style-type: none;
-    padding-left: 0%;
-}
-
-.tab-menu{
-    max-width: 540px;
-    background-color: #fff;
-    border-bottom: 1px solid  #8492a6;;
+   list-style-type: none;
+   padding-left: 0%;
+   border-bottom: 1px solid  #8492a6;;
 }
 
 .tab-menu::after{
     content: '';
-    display: block;
     clear: left;
+    display: block;
 }
 
 
 .tab-menu-item{
     float: left;
-    margin-left: 16px;
+    margin-right:16px ; 
 }
 
 .tab-menu-item a{
-    padding: 16px 20px;
+    padding:16px 20px;
     display: block;
+   
 }
 
 .tab-menu-item.active{
@@ -51,6 +46,6 @@ ul{
 }
 
 .tab-menu-item.active a{
-    color: #2860e1;
     font-weight: 500;
+    color: #2860e1;
 }
