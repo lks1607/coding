@@ -223,3 +223,12 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 | opacity        | 투명도 1, 0.5, 0                                                       |
 | Clearfix       | float로 고장난거 고칠떄 사용 clear는 left, right, both를 사용          |
 | Pseudo Element | css가상요소 html에는 존재하지않음 .class::before .class::after 로 사용 |
+
+## Position
+
+| static   | 모든요소의 기본포지션값                                                                    |
+| -------- | ------------------------------------------------------------------------------------------ |
+| relative | 이동의 기준점은 자기가 본래있던 위치 다른요소에게 영향을 안줌                              |
+| absolute | diplay값이 block으로 변경됨 길막x (float랑 비슷함) 기준점이 가장중요(relative가 가장 적절) |
+| fixed    | absolute랑 동일한 현상이 일어남 viewport 사이즈가 기준이됨                                 |
+| z-index  |                                                                                            |
