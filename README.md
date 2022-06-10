@@ -232,3 +232,14 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 | absolute | diplay값이 block으로 변경됨 길막x (float랑 비슷함) 기준점이 가장중요(relative가 가장 적절) |
 | fixed    | absolute랑 동일한 현상이 일어남 viewport 사이즈가 기준이됨                                 |
 | z-index  |                                                                                            |
+
+## flexbox : 정렬의 끝판왕(float대용)
+
+| flex                                               | 부모한테 선언 - 가로 정렬 세로 정렬 정하기 - 한 줄 안에 다 정렬할껀지 - flexbox 시작                                           |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| flex-direction                                     | 정렬방향 선언 가로 - row , 세로 - column                                                                                       |
+| Axis                                               | flex 사용시 보이지 않는 축 선언에 따라 달라짐                                                                                  |
+| main-Axis(justify-content)                         | center , space-around, space-between ,flex-start, flex-end                                                                     |
+| cross-Axis(align-items, align-content(wrap인경우)) | center, flex-end                                                                                                               |
+| flex-wrap                                          | 한줄안에 정렬 할 경우 nowrap(자식의 사이즈를 줄여서 라도 한 줄로 정렬해버리는 명령어), wrap(사이즈를 줄이지않고 여러줄로 생성) |
+| order (순서부여)                                   | order: 1 , order: 2,order:3                                                                                                    |
