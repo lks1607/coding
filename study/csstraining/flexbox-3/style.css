@@ -43,34 +43,38 @@
   /* ▼ WHERE YOUR CODE BEGINS */
   .profile{
     width: 387px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 16px;
-      background-color: #fff;
-      padding: 32px 40px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 32px 40px;
+    border-radius: 16px;
   }
-
   .profile-image{
-      display: block;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      margin-bottom: 16px;
+    display: block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
   }
 
   .profile-name{
-      margin-bottom: 4px;
+    margin-bottom: 4px;
   }
 
   .profile-location{
-      display: block;
-      margin-bottom: 32px;
+    margin-bottom: 32px;
   }
 
   .profile-detail{
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     text-align: center;
+  }
+
+  .profile-detail-item dt{
+    margin-bottom: 4px;
   }
