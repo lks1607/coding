@@ -243,7 +243,7 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 | flex-direction                                     | 정렬방향 선언 가로 - row , 세로 - column                                                                                       |
 | Axis                                               | flex 사용시 보이지 않는 축 선언에 따라 달라짐                                                                                  |
 | main-Axis(justify-content)                         | center , space-around, space-between ,flex-start, flex-end                                                                     |
-| cross-Axis(align-items, align-content(wrap인경우)) | center, flex-end                                                                                                               |
+| cross-Axis(align-items, align-content(wrap인경우)) | center , space-around, space-between ,flex-start, flex-end                                                                     |
 | flex-wrap                                          | 한줄안에 정렬 할 경우 nowrap(자식의 사이즈를 줄여서 라도 한 줄로 정렬해버리는 명령어), wrap(사이즈를 줄이지않고 여러줄로 생성) |
 | order (순서부여)                                   | order: 1 , order: 2,order:3                                                                                                    |
 
