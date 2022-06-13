@@ -203,6 +203,9 @@ selector(선택자) {
 property(선언): value(값);
 }
 
+vw = viewport width
+vh = viewport height
+
 ## Boxmodel
 
 | Content       | 가로는 width 세로는 height                                           |
@@ -235,7 +238,7 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 
 ## flexbox : 정렬의 끝판왕(float대용)
 
-| flex                                               | 부모한테 선언 - 가로 정렬 세로 정렬 정하기 - 한 줄 안에 다 정렬할껀지 - flexbox 시작                                           |
+| flex                                               | 부모한테 선언 - 가로 정렬 세로 정렬 정하기 - 한 줄 안에 다 정렬할껀지 - flexbox (a 태그안에있는 텍스트들도 자식으로 포함)시작  |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | flex-direction                                     | 정렬방향 선언 가로 - row , 세로 - column                                                                                       |
 | Axis                                               | flex 사용시 보이지 않는 축 선언에 따라 달라짐                                                                                  |
@@ -243,3 +246,19 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 | cross-Axis(align-items, align-content(wrap인경우)) | center, flex-end                                                                                                               |
 | flex-wrap                                          | 한줄안에 정렬 할 경우 nowrap(자식의 사이즈를 줄여서 라도 한 줄로 정렬해버리는 명령어), wrap(사이즈를 줄이지않고 여러줄로 생성) |
 | order (순서부여)                                   | order: 1 , order: 2,order:3                                                                                                    |
+
+## Media Query
+
+viewport meta : html에서 사용
+
+```html
+<meta name="viewport" />
+```
+
+media query : css
+
+```css
+@media screen and (min-width: 768px) {
+  /* 코드 작성 */
+}
+```
