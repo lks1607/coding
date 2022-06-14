@@ -285,6 +285,6 @@ media query : css
 
 - 갖다 쓰는방법
 
-[폰트 저장소](https://fonts.google.com) 에서 가져와서 사용
+[폰트저장소](https://fonts.google.com) 에서 가져와서 사용
 
 - 직접 제공하는 방법
