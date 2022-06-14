@@ -262,3 +262,33 @@ media query : css
   /* 코드 작성 */
 }
 ```
+
+## Typography
+
+- 텍스트를 이쁘게 디자인(대부분 텍스트로 되어있음)
+
+| Typography      | 텍스트를 이쁘게 디자인(대부분 텍스트로 되어있음)                                                           |
+| --------------- | ---------------------------------------------------------------------------------------------------------- |
+| font-size       | 글씨의 크기를 나타냄 ex) px 픽셀(절대단위) em 실제로 적용된 폰트사이즈 1em(상대단위) rem html em(상대단위) |
+| line-height     | 줄간격 px em을 가장많이사용 rem 에사용 / 줄간격 가운데의 위치                                              |
+| letter-spacing  | 글자와 글자사이의 간격크기 px,em(가장많이사용)을 사용                                                      |
+| font-famliy     | 폰트서체를 설정할때 사용 serif(명조체) seans-serif(고딕)                                                   |
+| font-weight     | 폰트의 굵기를 나타냄 (100단위) 400(regular) 700(bold)                                                      |
+| color           | 폰트 색상 hex(#fff) rgb (0,0,0) rgba(0,0,0,1 투명도)                                                       |
+| text-align      | 폰트 정렬 left right center                                                                                |
+| text-indent     | 텍스트 들여쓰기                                                                                            |
+| text-transform  | 알파벳 변형 none, capitalize(다음단어시작 대문자), uppercase(전부대문자), lowercase(전부소문자)            |
+| text-decoration | 텍스트 줄을 끊는거 none, underline(밑줄생성), line-through, overline(위에 선생성)                          |
+| font-style      | 문자가 기울어질 경우 normal, italic(많이사용), oblique(거의 사용x)                                         |
+
+## Webfont
+
+- 갖다 쓰는방법
+
+```html
+<a href="https://fonts.google.com">폰트저장소</a>
+```
+
+에서 가져와서 사용
+
+- 직접 제공하는 방법
