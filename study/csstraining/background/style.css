@@ -12,93 +12,128 @@ body{
   }
   
   /* ▼ WHERE YOUR CODE BEGINS */
+
   .card{
     display: flex;
+    width: 840px;
     padding: 24px;
-
   }
-
+  
   .card-image{
-    background-image: url('../assets/img-house.jpeg');
+    position: relative;
+    background-image: url(../assets/img-house.jpeg);
     width: 300px;
     height: 200px;
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
+    background-position: center center;
     border-radius: 6px;
-    margin-right: 24px;
+    margin-right:24px ;
+  }
+
+  .like-button{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(../assets/icon-favorite.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center center;
+    cursor: pointer;
+    top: 12px;
+    left: 12px;
+    
   }
 
   .card-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 9px;
+  }
+  .card-content{
+    flex-grow: 1;
   }
 
   .plus-badge{
     display: inline-block;
     font-size: 14px;
     line-height: 1.4285714286;
-    font-weight: 500;
     color: #fff;
-    background-color:#92174D ;
+    font-weight: 500;
+    background-color: #92184D;
     padding: 1px 8px;
     border-radius: 4px;
-    margin-right: 8px;
+    text-transform: uppercase;
   }
 
   .property-type span{
     font-size: 16px;
     line-height: 1.25;
-    color: #7D858F;
     font-weight: 400;
+    color: #7d858f;
   }
 
-  .property-rate{
+  .property-rate {
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
-}
-
-.property-rate::before{
-    content: '';
-    display: inline-block;
-    position: relative;
-    background-image: url('../assets/icon-star.svg');
-    width: 16px;
-    height: 16px;
-    top: 2px;
-    background-position: center center;
-    background-size: contain;
-}
+  }
 
   .property-rate strong{
-    color: #151B26;
+    color: #151b26;
   }
 
   .property-rate span{
-    color: #7D858F;
+    color: #7d858f;
+  }
+
+  .property-rate::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    background-image: url(../assets/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
   }
 
   .card-title{
     font-size: 20px;
     line-height: 1.6;
     font-weight: 400;
-    color: #151B26;
+    color: #151b26;
     margin-bottom: 16px;
   }
 
-  .sr-only{
-    display: none;
-  }
-
   .property-detail{
+    position:relative;
     font-size: 14px;
     line-height: 1.1428571429;
-    color: #7D858f;
+    color: #7d858f;
+  
   }
 
-  .property-detail div{
+  .sr-only{
+    position: absolute;
+    opacity: 0;
+  }
+
+  .property-detail dd span::after{
+    content: '﹒';
+
+  }
+
+  .property-detail dd span:last-child::after{
+    content: '';
+  }
+
+  .property-detail div:first-child{
     margin-bottom: 8px;
   }
