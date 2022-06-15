@@ -301,6 +301,7 @@ media query : css
 ```
 
 - 폰트 사용하기 쉽게 설정
+
   ```css
   @font-face {
     font-family: '';
@@ -314,3 +315,13 @@ media query : css
       /* Safari, Android, iOS */ url('폰트경로.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
   ```
+
+  ## [background](https://unsplash.com)
+
+  | background          | 배경                                                                                                                        |
+  | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+  | background-color    | hex rgb rgba                                                                                                                |
+  | background-image    | 배경으로 이미지 넣을때 반드시 url()사용                                                                                     |
+  | background-repeat   | 사진반복 repeat, 사진반복x no-repeat                                                                                        |
+  | background-size     | 배경사진의 사이즈 contain(요소안에 모든이미지 공간이 남더라도 포함), cover(요소안에 빈공간을 남기지않고 꽉채울경우), custom |
+  | background-position | 사진을 위치시킬경우 center, bottom, top, left, right 사용                                                                   |
