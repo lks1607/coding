@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "raccoon";
+  font-style: normal;
+  font-weight: 300;
+  src: url('./NanumSquareRoundL.eot'); 
+  src: url('./NanumSquareRoundL.eot') format('embedded-opentype'), 
+       url('./NanumSquareRoundL.woff2') format('woff2'),
+       url('./NanumSquareRoundL.woff') format('woff'), 
+       url('./NanumSquareRoundL.ttf') format('truetype'),
+       url('./NanumSquareRoundL.svg#svgFontName') format('svg'); 
+}
+
+@font-face {
+    font-family: "raccoon";
+    font-style: normal;
+    font-weight: 700;
+    src: url('./NanumSquareRoundR.eot'); 
+    src: url('./NanumSquareRoundR.eot') format('embedded-opentype'), 
+         url('./NanumSquareRoundR.woff2') format('woff2'),
+         url('./NanumSquareRoundR.woff') format('woff'), 
+         url('./NanumSquareRoundR.ttf') format('truetype'),
+         url('./NanumSquareRoundR.svg#svgFontName') format('svg'); 
+  }
+
+  @font-face {
+    font-family: "raccoon";
+    font-style: normal;
+    font-weight: 800;
+    src: url('./NanumSquareRoundB.eot'); 
+    src: url('./NanumSquareRoundB.eot') format('embedded-opentype'), 
+         url('./NanumSquareRoundB.woff2') format('woff2'),
+         url('./NanumSquareRoundB.woff') format('woff'), 
+         url('./NanumSquareRoundB.ttf') format('truetype'),
+         url('./NanumSquareRoundB.svg#svgFontName') format('svg'); 
+  }

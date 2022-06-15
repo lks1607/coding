@@ -288,3 +288,29 @@ media query : css
 [폰트저장소](https://fonts.google.com) 에서 가져와서 사용
 
 - 직접 제공하는 방법
+  다운받아서 직접제공
+
+  import를 html or css에 import 해야함
+
+```html
+<link rel="stylesheet" href="./font.css" />
+```
+
+```css
+@import url('./font.css');
+```
+
+- 폰트 사용하기 쉽게 설정
+  ```css
+  @font-face {
+    font-family: '';
+    font-style: normal;
+    font-weight: 400;
+    src: url('폰트경로.eot'); /* IE9 Compat Modes */
+    src: url('폰트경로.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('폰트경로.woff2') format('woff2'),
+      /* Super Modern Browsers */ url('폰트경로.woff') format('woff'), /* Pretty Modern Browsers */
+        url('폰트경로.ttf') format('truetype'),
+      /* Safari, Android, iOS */ url('폰트경로.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  ```
