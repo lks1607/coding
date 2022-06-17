@@ -325,3 +325,34 @@ media query : css
   | background-repeat   | 사진반복 repeat, 사진반복x no-repeat                                                                                        |
   | background-size     | 배경사진의 사이즈 contain(요소안에 모든이미지 공간이 남더라도 포함), cover(요소안에 빈공간을 남기지않고 꽉채울경우), custom |
   | background-position | 사진을 위치시킬경우 center, bottom, top, left, right 사용                                                                   |
+
+  ## Transition
+
+  - 어떤 요소의 속성값을 바꿀때 사용
+
+| Transition      | 어떤 요소의 속성값을 바꿀때 사용                                                                                            |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| property        | css속성을 뜻함                                                                                                              |
+| duration        | 지속시간 ms(1000ms = 1s) s 초                                                                                               |
+| timing-function | 생략가능, 변화의 속도(ease-in(천천히 바뀌다가 빠르게), ease-out(빠르다가 천천히), ease-in-out, cubic-bezier()변화속도 설정) |
+| delay           | 지연시킬때 몇초후에 변화시키려고 할때 사용                                                                                  |
+
+## [animation](https://developer.mozilla.org/ko/docs/Learn/CSS/First_steps)
+
+| animation-property | 속기형인 animation을 쪼개서 사용                                                                                            |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| name               | @keyframes로직이름{from{시작할때} to{마지막}}, @keyframes로직이름{0%{} 50%{} 100%{}}                                        |
+| duration           | 지속시간 ms(1000ms = 1s) s 초                                                                                               |
+| timing-function    | 생략가능, 변화의 속도(ease-in(천천히 바뀌다가 빠르게), ease-out(빠르다가 천천히), ease-in-out, cubic-bezier()변화속도 설정) |
+| delay              | 지연시킬때 몇초후에 변화시키려고 할때 사용                                                                                  |
+| iteration-count    | 반복횟수 설정 정수를 적거나 infinite(무한)                                                                                  |
+| direction          | 애니메이션 진행될때 진행되는 방향 alternate(번갈아가다)                                                                     |
+
+## 동적 가상 클래스 선택자(User action pseudo-classes)
+
+- User의 액션에 따라 사용
+
+| element:hover  | 마우스를 갖다 댔을때       |
+| -------------- | -------------------------- |
+| element:focus  | 눌러서 focusing이 되었을때 |
+| element:active | 마우스를 눌렀을때          |
