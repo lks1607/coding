@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+button,input,textarea{
+    font-family: 'Lato', sans-serif;
+}
+
 .line-button{
     position: relative;
     width: 110px;
@@ -5,23 +18,20 @@
     background-color: #fff;
     font-size: 16px;
     line-height: 1.25;
-    font-weight: 400;
-    color: #151B26;
+    color: #151b26;
     border: none;
-    padding: 18px 30px;
     cursor: pointer;
-    
 }
 
 .line-button::after{
-    content:'';
+    content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    bottom: 0;
-    left: 0;
     background-color: #0066ff;
-    transition: width 250ms ease-in;
+    left: 0;
+    bottom: 0;
+    transition: width 250ms;
 }
 
 .line-button:hover::after{

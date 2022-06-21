@@ -1,39 +1,37 @@
 *{
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Lato', sans-serif;
 }
 
-button,input,textarea{
-    font-family: 'Lato', sans-serif;
-}
 
-.line-button{
+button{
     position: relative;
-    width: 110px;
+    width: 180px;
     height: 56px;
     background-color: #fff;
+    color: #151B26;
     font-size: 16px;
-    line-height: 1.25;
-    color: #151b26;
+    font-weight: 1.25;
     border: none;
     cursor: pointer;
-}
+    padding: 18px 30px;
+    }
 
-.line-button::after{
+button::after{
     content: '';
     position: absolute;
+    bottom: 0;
+    left: 0;
     width: 0;
     height: 2px;
     background-color: #0066ff;
-    left: 0;
-    bottom: 0;
     transition: width 250ms;
 }
 
-.line-button:hover::after{
+button:hover::after{
     width: 100%;
 }

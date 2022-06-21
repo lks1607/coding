@@ -278,7 +278,7 @@ media query : css
 | text-align      | 폰트 정렬 left right center                                                                                |
 | text-indent     | 텍스트 들여쓰기                                                                                            |
 | text-transform  | 알파벳 변형 none, capitalize(다음단어시작 대문자), uppercase(전부대문자), lowercase(전부소문자)            |
-| text-decoration | 텍스트 줄을 끊는거 none, underline(밑줄생성), line-through, overline(위에 선생성)                          |
+| text-decoration | 텍스트 줄을 긋는거 none, underline(밑줄생성), line-through, overline(위에 선생성)                          |
 | font-style      | 문자가 기울어질 경우 normal, italic(많이사용), oblique(거의 사용x)                                         |
 
 ## Webfont
