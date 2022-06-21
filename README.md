@@ -129,7 +129,7 @@ Aria 태그 정의
 </script>
 ```
 
-## 의미론적 태그
+## [의미론적 태그](https://webdir.tistory.com/310)
 
 <img src="./section.png">
 
