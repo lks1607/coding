@@ -217,9 +217,24 @@ vh = viewport height
 | border-radius | 둥근 테두리가 필요할때                                               |
 | margin        | 바깥여백, 즉 요소와 요소사이의 간격을 나타내는 margin                |
 
-Block(길막) : 다른 블록이 침범하지못하게 width값 남은곳은 margin이 자동으로 채움
-Inline(흐름) : width,height, padding-top, padding-bottom, border-top, border-bottom, margin-top, margin-bottom 사용불가
-Inline-block : Inline 장점과 Block 장점을 합친것
+## display
+
+| Block(길막)  | 다른 블록이 침범하지못하게 width값 남은곳은 margin이 자동으로 채움                                       |
+| ------------ | -------------------------------------------------------------------------------------------------------- |
+| Inline(흐름) | width,height, padding-top, padding-bottom, border-top, border-bottom, margin-top, margin-bottom 사용불가 |
+| Inline-block | Inline 장점과 Block 장점을 합친것                                                                        |
+| none         | 요소가 존재하지 않게됨                                                                                   |
+
+### flexbox : 정렬의 끝판왕(float대용)
+
+| flex                                               | 부모한테 선언 - 가로 정렬 세로 정렬 정하기 - 한 줄 안에 다 정렬할껀지 - flexbox (a 태그안에있는 텍스트들도 자식으로 포함)시작  |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| flex-direction                                     | 정렬방향 선언 가로 - row , 세로 - column                                                                                       |
+| Axis                                               | flex 사용시 보이지 않는 축 선언에 따라 달라짐                                                                                  |
+| main-Axis(justify-content)                         | center , space-around, space-between ,flex-start, flex-end                                                                     |
+| cross-Axis(align-items, align-content(wrap인경우)) | center , space-around, space-between ,flex-start, flex-end                                                                     |
+| flex-wrap                                          | 한줄안에 정렬 할 경우 nowrap(자식의 사이즈를 줄여서 라도 한 줄로 정렬해버리는 명령어), wrap(사이즈를 줄이지않고 여러줄로 생성) |
+| order (순서부여)                                   | order: 1 , order: 2,order:3                                                                                                    |
 
 ## Float
 
@@ -238,16 +253,7 @@ Inline-block : Inline 장점과 Block 장점을 합친것
 | fixed    | absolute랑 동일한 현상이 일어남 viewport 사이즈가 기준이됨                                 |
 | z-index  |                                                                                            |
 
-## flexbox : 정렬의 끝판왕(float대용)
-
-| flex                                               | 부모한테 선언 - 가로 정렬 세로 정렬 정하기 - 한 줄 안에 다 정렬할껀지 - flexbox (a 태그안에있는 텍스트들도 자식으로 포함)시작  |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| flex-direction                                     | 정렬방향 선언 가로 - row , 세로 - column                                                                                       |
-| Axis                                               | flex 사용시 보이지 않는 축 선언에 따라 달라짐                                                                                  |
-| main-Axis(justify-content)                         | center , space-around, space-between ,flex-start, flex-end                                                                     |
-| cross-Axis(align-items, align-content(wrap인경우)) | center , space-around, space-between ,flex-start, flex-end                                                                     |
-| flex-wrap                                          | 한줄안에 정렬 할 경우 nowrap(자식의 사이즈를 줄여서 라도 한 줄로 정렬해버리는 명령어), wrap(사이즈를 줄이지않고 여러줄로 생성) |
-| order (순서부여)                                   | order: 1 , order: 2,order:3                                                                                                    |
+                                                                                 |
 
 ## Media Query
 
