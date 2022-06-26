@@ -253,8 +253,6 @@ vh = viewport height
 | fixed    | absolute랑 동일한 현상이 일어남 viewport 사이즈가 기준이됨                                 |
 | z-index  |                                                                                            |
 
-                                                                                 |
-
 ## Media Query
 
 viewport meta : html에서 사용
