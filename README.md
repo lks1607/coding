@@ -356,7 +356,7 @@ media query : css
 
 ## etc
 
-### [box-shadow]{https://neumorphism.io/#e0e0e0}
+### [box-shadow](https://neumorphism.io/#e0e0e0)
 
 | box-shadow | 박스 그림자       |
 | ---------- | ----------------- |
