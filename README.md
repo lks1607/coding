@@ -350,6 +350,44 @@ media query : css
 | iteration-count    | 반복횟수 설정 정수를 적거나 infinite(무한)                                                                                  |
 | direction          | 애니메이션 진행될때 진행되는 방향 alternate(번갈아가다)                                                                     |
 
+## etc
+
+### [box-shadow]{https://neumorphism.io/#e0e0e0}
+
+| box-shadow | 박스 그림자       |
+| ---------- | ----------------- |
+| h-offset   | x축 이동시킬 거리 |
+| v-offset   | y축 이동시킬 거리 |
+| blur       | 흐린 정도         |
+| spread     | 그림자 사이즈     |
+| color      | 색상              |
+
+### Opacity
+
+- 투명도 : 0일수록 투명 1일수록 불투명
+
+### Overflow
+
+| Overflow    | width or height의 크기를 넘어갔을경우 작용하는 개체               |
+| ----------- | ----------------------------------------------------------------- |
+| visible     | Overflow의 기본값                                                 |
+| auto,scroll | 넘어갔을때 알아서 해라 auto , 넘어갔을떄 스크롤로 만들어라 scroll |
+| hidden      | 넘어갔을경우 숨길때 사용                                          |
+
+### Transform
+
+| translate() | translate(x,y) 내가 원하는 방향으로 위치시키고 싶을때 사용 다른애들한테 영향안줌            |
+| ----------- | ------------------------------------------------------------------------------------------- |
+| scale()     | scale() 숫자의 배율만큼 크기를 키운다 scale(x,y) x는 width y는 height 배율만큼 크기조절     |
+| rotate()    | rotate(Ndeg) 각도를 돌려줄때사용 괄호안에 숫자와 deg를 같이적어야함 ex) 90도 돌릴라면 90deg |
+
+### Visibility
+
+| Visibility | 요소를 보이게 할때 사용 보이지만 않는것 위치는 그대로 가지고있음(opacity:0과 비슷한 예시) |
+| ---------- | ----------------------------------------------------------------------------------------- |
+| visible    | 기본값 요소를 보일때 사용                                                                 |
+| hidden     | 요소를 숨길때 사용                                                                        |
+
 ## 동적 가상 클래스 선택자(User action pseudo-classes)
 
 - User의 액션에 따라 사용
