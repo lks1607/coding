@@ -392,11 +392,33 @@ media query : css
 | visible    | 기본값 요소를 보일때 사용                                                                 |
 | hidden     | 요소를 숨길때 사용                                                                        |
 
-## 동적 가상 클래스 선택자(User action pseudo-classes)
+## Selector (요소, 클래스, ID선택자)
+
+| Selector | 요소 지칭                      |
+| -------- | ------------------------------ |
+| Type     | Html 태그 selector ex)p,h1,div |
+| Class    | 중복가능 ex) .class            |
+| ID       | 중복 불가능 ex) #ID            |
+
+### 자식, 자손 형제 선택자 (Child, Descendant&Sibling Combinators)
+
+| Child               | 자식 선택자 자식만 꾸미고싶으면 selector > Child                                                       |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| Descendant          | 자손선택자 자식선택자 안에있는 요소                                                                    |
+| Sibling Combinators | 형제 선택자 parent + sibling(선택요소 다음 형제요소 하나) , parent ~ sibling (요소 다음 모든 형제요소) |
+
+### 구조적 가상 클래스 선택자 (Structural Pseudo-classes)
+
+| seletor:first-child   | 여러개의 요소중 첫번째 요소                            |
+| --------------------- | ------------------------------------------------------ |
+| selector:last-child   | 여러개의 요소중 마지막째 요소                          |
+| selector:nth-child(n) | 여러개의 요소중 n번째 요소 짝수표현(2n) 홀수표현(2n-1) |
+
+### 동적 가상 클래스 선택자 (User action pseudo-classes)
 
 - User의 액션에 따라 사용
 
-| element:hover  | 마우스를 갖다 댔을때       |
-| -------------- | -------------------------- |
-| element:focus  | 눌러서 focusing이 되었을때 |
-| element:active | 마우스를 눌렀을때          |
+| selector:hover  | 마우스를 갖다 댔을때                               |
+| --------------- | -------------------------------------------------- |
+| selector:focus  | 눌러서 focusing이 되었을때( 마우스를 클릭한 순간 ) |
+| selector:active | 마우스를 눌렀을때                                  |
