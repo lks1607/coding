@@ -394,6 +394,8 @@ media query : css
 
 ## Selector (요소, 클래스, ID선택자)
 
+- 요소 적용은 ID > Class,Pseudo-classes(가상요소) > Type 순
+
 | Selector | 요소 지칭                      |
 | -------- | ------------------------------ |
 | Type     | Html 태그 selector ex)p,h1,div |
@@ -414,7 +416,7 @@ media query : css
 | selector:last-child   | 여러개의 요소중 마지막째 요소                          |
 | selector:nth-child(n) | 여러개의 요소중 n번째 요소 짝수표현(2n) 홀수표현(2n-1) |
 
-### 동적 가상 클래스 선택자 (User action pseudo-classes)
+### 동적 가상 클래스 선택자 (User action Pseudo-classes)
 
 - User의 액션에 따라 사용
 
