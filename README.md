@@ -394,8 +394,6 @@ media query : css
 
 ## Selector (요소, 클래스, ID선택자)
 
-- 요소 적용은 ID > Class,Pseudo-classes(가상요소) > Type 순
-
 | Selector | 요소 지칭                      |
 | -------- | ------------------------------ |
 | Type     | Html 태그 selector ex)p,h1,div |
@@ -424,3 +422,12 @@ media query : css
 | --------------- | -------------------------------------------------- |
 | selector:focus  | 눌러서 focusing이 되었을때( 마우스를 클릭한 순간 ) |
 | selector:active | 마우스를 눌렀을때                                  |
+
+### Selecor 요소 적용
+
+- 요소 적용은 ID > Class,Pseudo-classes(가상요소) > Type 순
+
+| 적용 안되는 경우 |                                                       |
+| ---------------- | ----------------------------------------------------- |
+| inline-style     | display: inline 인 경우 적용이 안됨                   |
+| !important       | 그냥 적용이 안되게 하는요소 ex)color:#fff:!improtant; |
