@@ -431,3 +431,16 @@ media query : css
 | ---------------- | ----------------------------------------------------- |
 | inline-style     | display: inline 인 경우 적용이 안됨                   |
 | !important       | 그냥 적용이 안되게 하는요소 ex)color:#fff:!improtant; |
+
+## [Bootstrap](https://getbootstrap.com/)
+
+- 꼭 container > row > col 순으로만 작성할것 class이름을 새로넣고 싶은경우 col안에 class를 만들어서 넣을 것
+
+<img src="./bootstrapsize.png">
+
+### Grid System
+
+| container | 영역전체         |
+| --------- | ---------------- |
+| column    | 영역중 한칸      |
+| gutter    | 간격을 위한 여백 |
