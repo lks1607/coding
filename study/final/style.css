@@ -7,10 +7,11 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
-/* Reset Css */
+/* Reset css */
+
 a{
-    color: inherit;
     text-decoration: none;
+    color: inherit;
 }
 
 button,
@@ -19,67 +20,52 @@ textarea{
     font-family: 'DM Sans', sans-serif;
 }
 
-button:focus,
+button:hover,
 button:active,
-input:focus,
+input:hover,
 input:active,
-textarea:focus,
+textarea:hover,
 textarea:active{
     box-shadow: none;
     outline: none;
 }
 
-ul,
-ol,
-li{
+ol,ul,li{
     list-style: none;
     padding-left: 0;
     margin-left: 0;
 }
 
+
 p{
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: -0.01;
     color: #2b292d;
-    letter-spacing: -0.01em;
 }
 
 
-.btn{
+.button{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 140px;
     height: 48px;
+    background-color: #3040c4;
+    color: #fff;
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: -0.05;
     font-weight: 700;
-    color: #fff;
-    background-color: #3040c4;
-    transition: opacity 300ms ease-in-out;
-}
-
-.btn:hover{
-    opacity: 0.5;
 }
 
 .inverted{
     background-color: #fff;
-    color:#3040c4;
+    color: #3040c4;
 }
 
+/* landing */
 
-
-/* Custom Grid System - Fix container width */
-@media screen and (min-width:1200px){
-    .container{
-        max-width: 960px !important; 
-    }
-    
-}
-
-/* Landing */
 .landing{
     background-color: #fdded8;
     text-align: center;
@@ -98,54 +84,47 @@ p{
     font-size: 40px;
     line-height: 1;
     font-weight: 700;
-    margin-bottom: 24px;
     letter-spacing: -0.05em;
+    color: #2b292d;
+    margin-bottom: 24px;
 }
 
 .landing-desc{
     margin-bottom: 24px;
 }
-
-.landing .buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.landing .buttons .btn:first-child{
-    margin-right: 8px;
+.landing-buttons .button:first-child{
+ margin-right: 8px;
 }
 
 /* Service */
+
 .service{
     background-color: #f4f5f7;
     padding: 80px 0;
 }
 
-
 .service-title{
     font-size: 22px;
     line-height: 1.3636363636;
-    font-weight: 700;
     letter-spacing: -0.04em;
+    font-weight: 700;
     margin-bottom: 16px;
     color: #2b292d;
 }
 
-.col-12:first-child{
+.service .col-12:first-child{
     margin-bottom: 40px;
 }
 
 
-/* >= 768px (desktop) */
-@media screen and (min-width:768px){
-    /* Reset Css */
+/* >=768px (Desktop) */
+@media screen and (min-width: 768px){
     p{
         font-size: 22px;
         line-height: 1.4545454545;
     }
 
-    .btn{
+    .button{
         width: 160px;
         height: 56px;
         font-size: 18px;
@@ -169,18 +148,27 @@ p{
         margin-bottom: 32px;
     }
 
-    .landing .buttons .btn:first-child{
-       margin-right: 16px;
+   
+    .landing button:first-child{
+        margin-right: 16px;
+    }
+
+    /* service */
+
+    .service-title{
+        font-size: 26px;
+        line-height: 1.2307692308;
+      }
+
+    .service .col-12:first-child{
+        margin-bottom: 0;
+    }
+}
+
+/* Custom Grid System - Fix container width */
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 960px !important; 
     }
     
-    /* Service */
-
-  .service-title{
-    font-size: 26px;
-    line-height: 1.2307692308;
-  }
-
-  .col-12:first-child{
-    margin-bottom: 0;
-  }
 }
