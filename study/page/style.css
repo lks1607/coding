@@ -58,6 +58,7 @@ p{
     color: #fff;
     background-color: #3040c4;
     transition: opacity 300ms ease-in-out;
+    border: none;
 }
 
 .btn:hover{
@@ -209,6 +210,100 @@ p{
 
 }
 
+/* curriculum */
+.curriculum .section-category{
+    color: #0189d1;
+}
+
+.curriculum .section-desc{
+    margin-bottom: 32px;
+}
+
+.curriculum .row:first-child{
+    margin-bottom: 48px;
+}
+
+.curriculum-img{
+    display: none;
+}
+
+
+.curriculum-desc{
+    font-size: 15px;
+    line-height: 1.4666666667;
+    letter-spacing: -0.01em;
+    color: #2b292d;
+}
+
+.curriculum .row:last-child .col-12:first-child{
+    margin-bottom: 40px;
+}
+
+/* subscription */
+
+.subscription{
+    padding: 40px 0;
+    background-color: #F2F8FA;
+    text-align: center;
+}
+
+.subscription-img{
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+    margin-bottom: 16px;
+}
+
+.subscription-img img{
+    display: block;
+    width: auto;
+    height: 190px;
+    margin: 0 auto;
+}
+
+
+.subscription-title{
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 16px;
+}
+
+.subscription-desc{
+    margin-bottom: 24px;
+}
+
+.subscription-text{
+    width: 100%;
+    height: 48px;
+    border: none;
+    padding: 0 16px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+.subscription .btn{
+    width: 100%;
+    height: 48px;
+    padding: 12px 107px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-radius: 2px;
+}
+
+.form-notice{
+    font-size: 13px;
+    line-height: 1.5384615385;
+    letter-spacing: 0;
+    color: #7B7B7E;
+}
+
+.form-notice a{
+    text-decoration: underline;
+    color: #3040C4;
+}
+
 
 
 
@@ -294,5 +389,85 @@ p{
     line-height: 1.2;
   }
 
+  /* curriculum */
+  .curriculum .section-desc{
+    margin-bottom: 72px;
+  }
 
+  .curriculum-img{
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .curriculum .row:first-child{
+    margin-bottom: 24px;
+  }
+
+  .curriculum-desc{
+    font-size: 18px;
+    line-height: 1.4444444444;
+  }
+
+  .curriculum .row:last-child .col-12:first-child{
+    margin-bottom: 0;
+  }
+
+  /* subscription */
+  .subscription{
+    text-align: left;
+    padding: 80px 0;
+  }
+
+  .subscription-img{
+    padding: 8px 0;
+  }
+
+  .subscription-img img{
+    width: auto;
+    height: 285px;
+    margin-left: 0;
+  }
+
+  .subscription .row .col-12:first-child{
+    margin-bottom: 0;
+  }
+
+  .subscription-title{
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+.input-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+ .subscription-text{
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.3333333333;
+    padding: 16px;
+    margin-bottom: 0;
+    margin-right: 8px;
+
+ }
+
+ .subscription .btn{
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.3333333333;
+    letter-spacing: -0.02em;
+    padding: 15px 28px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+ }
+
+ .subscription-detail{
+    font-size: 14px;
+    line-height: 1.7142857143;
+ }
 }
