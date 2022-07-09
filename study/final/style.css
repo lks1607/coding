@@ -286,6 +286,22 @@ p{
     text-decoration: underline;
 }
 
+/* footer */
+.footer-menu{
+    padding: 24px 0;
+}
+
+.footer-list-item{
+    font-size: 14px;
+    line-height: 1.7142857143;
+    letter-spacing: -0.01em;
+    color: #807F81;
+    margin-bottom: 8px;
+}
+
+.footer-list-item:last-child{
+    margin-bottom: 0;
+}
 
 
 
@@ -452,7 +468,23 @@ p{
         flex-shrink: 0;
     }
 
+/* footer */
+.footer-menu{
+    padding: 16px 0;
+}
 
+.footer-list{
+    display: flex;
+}
+
+.footer-list-item{
+    margin-bottom: 0;
+    margin-right: 16px;
+}
+
+.footer-list-item:last-child{
+    margin-right: 0;
+}
 }
 
 /* Custom Grid System - Fix container width */

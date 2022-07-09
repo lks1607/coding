@@ -92,6 +92,8 @@ p{
 
 
 
+
+
 /* Custom Grid System - Fix container width */
 @media screen and (min-width:1200px){
     .container{
@@ -304,6 +306,22 @@ p{
     color: #3040C4;
 }
 
+/* footer */
+.footer-menu{
+    padding: 24px 0;
+}
+
+.footer-menu .col-12 li{
+    font-size: 14px;
+    line-height: 1.7142857143;
+    letter-spacing: -0.01em;
+    color: #807F81;
+    margin-bottom: 8px;
+}
+
+.footer-menu .col-12 li:last-child{
+    margin-bottom: 0;
+}
 
 
 
@@ -338,6 +356,8 @@ p{
         line-height: 1;
         margin-bottom: 32px;
     }
+
+   
 
     /* landing */
 
@@ -470,4 +490,23 @@ p{
     font-size: 14px;
     line-height: 1.7142857143;
  }
+
+  /* footer */
+  .footer-menu{
+    padding: 16px 0;
+}
+
+.footer-menu .col-12 .footer-list{
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu .col-12 li{
+    margin-bottom: 0;
+    margin-right: 16px;
+}
+
+.footer-menu .col-12 li:last-child{
+    margin-right: 0;
+}
 }
